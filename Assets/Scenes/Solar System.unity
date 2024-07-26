@@ -1811,7 +1811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: Regresar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2045,7 +2045,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Planetname
+  m_text: Encuentra un planeta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2054,8 +2054,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292103623
-  m_fontColor: {r: 0.78016734, g: 0.30074754, b: 0.8301887, a: 1}
+    rgba: 4292115533
+  m_fontColor: {r: 0.30196077, g: 0.4868802, b: 0.83137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2307,7 +2307,7 @@ GameObject:
   - component: {fileID: 1164237327}
   - component: {fileID: 1164237328}
   m_Layer: 0
-  m_Name: Mercury
+  m_Name: Mercurio
   m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3008,7 +3008,7 @@ GameObject:
   - component: {fileID: 1520497633}
   - component: {fileID: 1520497634}
   m_Layer: 0
-  m_Name: Sun
+  m_Name: Sol
   m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3431,7 +3431,7 @@ GameObject:
   - component: {fileID: 1863862988}
   - component: {fileID: 1863862989}
   m_Layer: 0
-  m_Name: Mars
+  m_Name: Marte
   m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4256,7 +4256,7 @@ PrefabInstance:
     - target: {fileID: 3975038379820246337, guid: bb5c78c33dfcdb84ba69ee3297ff48e8,
         type: 3}
       propertyPath: m_Name
-      value: Earth
+      value: Tierra
       objectReference: {fileID: 0}
     - target: {fileID: 3975038379820246337, guid: bb5c78c33dfcdb84ba69ee3297ff48e8,
         type: 3}

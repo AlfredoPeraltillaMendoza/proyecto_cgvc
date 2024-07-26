@@ -60,6 +60,6 @@ public class Planet : MonoBehaviour
         else
         {
             Debug.LogError("Planet scene name is not set for " + planetName);
-        }
-    }
+        }
+    }
 }

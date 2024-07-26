@@ -34,13 +34,13 @@ public class CameraMovement : MonoBehaviour
             LockCursor(false);
         }
 
-        // if the player fires, then relock the cursor
+        //fires
         if (Input.GetKeyDown(KeyCode.L))
         {
             LockCursor(true);
         }
 
-        // Handle sprinting
+        //sprinting
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isSprinting = !isSprinting;
@@ -50,7 +50,7 @@ public class CameraMovement : MonoBehaviour
         X += Input.GetAxis("Mouse X") * rSpeed;
         Y += -Input.GetAxis("Mouse Y") * rSpeed;
 
-        // Clamp the Y rotation angle to a certain range
+        
         Y = Mathf.Clamp(Y, -90.0f, 90.0f);
 
         transform.localRotation = Quaternion.AngleAxis(X, Vector3.up);

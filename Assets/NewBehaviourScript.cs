@@ -17,5 +17,5 @@ public class NewBehaviourScript : MonoBehaviour
         // Apply the rotation to the flag
         transform.rotation = Quaternion.identity;  // Reset rotation to avoid accumulation
         transform.Rotate(windRotation.eulerAngles);
-    }
+    }
 }

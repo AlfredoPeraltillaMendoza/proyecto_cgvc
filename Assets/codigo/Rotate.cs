@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    public float rotationSpeed = 10f; // Adjust the speed as needed
+    public float rotationSpeed = 10f; // Velocidad Rotacion
 
     void Start()
     {
